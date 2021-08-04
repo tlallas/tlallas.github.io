@@ -12,6 +12,30 @@
     animation: App-logo-spin infinite 8s linear;
   }
 }
+.App-navcontainer{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.App-navbar-items {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+
+
+.App-navbar-items a {
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+}
 
 .App-header {
   background-color: #FFF;
