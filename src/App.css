@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+@font-face {
+  font-family: LeagueSpartan;
+  src: url("/Users/taylorlallas/Desktop/PortfolioSite/tlallas.github.io/src/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+.Main-initials {
+  font-family: LeagueSpartan;
+  font-size: 3rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 8s linear;
@@ -17,8 +27,14 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  align-items: flex-start;
+  align-items:baseline;
   justify-content: space-evenly;
+}
+
+h1 {
+  font-family: LeagueSpartan;
+  color: black;
+  /* font-size: 3em; */
 }
 
 .App-navbar-items {
@@ -33,19 +49,23 @@
 
 .App-navbar-items a {
   color: black;
-  font-family:'Times New Roman', Times, serif;
   text-decoration: none;
+  font-family: LeagueSpartan;
+}
+.App-navbar-items a:hover {
+  color: rgb(179, 6, 6);
 }
 
-.App-header {
+.Landing-jumbotron {
   background-color: #FFF;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 4%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: rgb(179, 6, 6);
+  color: black;
 }
 
 .App-link {
@@ -59,4 +79,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profile-photo {
+  max-width: 30%;
+  border-radius: 0.2em;
+  margin-left: 13%;
+  margin-right: 3%;
+  
+}
+
+.Landing-jumbo-text-container {
+  /* border: solid rgb(179, 6, 6) .2em;
+  border-radius: 0.01em;  */
+  min-width: 40%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

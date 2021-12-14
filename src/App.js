@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import profile from './images/profile.jpg';
 import './App.css';
 import brand from './tlbrand.png';
 // import Navbar from 'react-bootstrap/Navbar'
@@ -9,21 +10,24 @@ function App() {
   return (
     <div className="App">
       <div className="App-navcontainer">
-        <span>
-          TL
+        <span className="Main-initials">
+          tl.
         </span>
         <div className="App-navbar-items">
-          <a href="#">ABOUT</a>
-          <a href="#">PROJECTS</a>
-          <a href="#">3 IN 30</a>
-          <a href="#">RESUME</a>
-          <a href="#">CONTACT</a>
+          <a href="#">about</a>
+          <a href="#">portfolio</a>
+          <a href="#">resume</a>
+          <a href="#">contact</a>
         </div>
       </div>
 
-      <header className="App-header">
-        <img src={brand} className="App-logo" alt="logo" />
-        <p> Coming Soon!</p>
+      <header className="Landing-jumbotron">
+        <img src={profile}  alt="logo" className="profile-photo"/>
+        <div className="Landing-jumbo-text-container"> 
+          <h1 style={{fontSize: "3em"}}>hi, </h1>
+          <h1 style={{paddingLeft: "1%"}}> i'm <span style={{color: "rgb(179, 6, 6)"}}>taylor lallas</span>! </h1>
+        
+        </div>
 
       </header>
     </div>
