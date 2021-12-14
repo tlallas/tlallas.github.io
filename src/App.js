@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <div className="App-navcontainer">
-        <span className="Main-initials">
+        <a className="Main-initials" href="/">
           tl.
-        </span>
+        </a>
         <div className="App-navbar-items">
           <a href="#">about</a>
-          <a href="#">portfolio</a>
           <a href="#">resume</a>
+          <a href="#">portfolio</a>
           <a href="#">contact</a>
         </div>
       </div>
@@ -25,7 +25,11 @@ function App() {
         <img src={profile}  alt="logo" className="profile-photo"/>
         <div className="Landing-jumbo-text-container"> 
           <h1 style={{fontSize: "3em"}}>hi, </h1>
-          <h1 style={{paddingLeft: "1%"}}> i'm <span style={{color: "rgb(179, 6, 6)"}}>taylor lallas</span>! </h1>
+          <h1 style={{}}> i'm <span style={{color: "rgb(179, 6, 6)"}}>taylor lallas</span>! </h1>
+          <p>frontend engineer,</p>
+          <p>ui / ux designer,</p>
+          <p>strategist.</p>
+
         
         </div>
 

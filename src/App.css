@@ -9,12 +9,26 @@
 
 @font-face {
   font-family: LeagueSpartan;
-  src: url("/Users/taylorlallas/Desktop/PortfolioSite/tlallas.github.io/src/LeagueSpartan-Bold.otf") format("opentype");
+  src: url("/src/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Sanchez;
+  src: url("/src/Sanchez-Regular.ttf");
+}
+
+p {
+  font-family: Sanchez;
 }
 
 .Main-initials {
   font-family: LeagueSpartan;
   font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+.Main-initials:hover{
+  color:rgb(179, 6, 6);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -92,6 +106,7 @@ h1 {
 .Landing-jumbo-text-container {
   /* border: solid rgb(179, 6, 6) .2em;
   border-radius: 0.01em;  */
+  margin-top: -1.5%;
   min-width: 40%;
   margin-right: 10%;
   display: flex;
