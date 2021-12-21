@@ -71,10 +71,12 @@ h1 {
 }
 
 .Landing-jumbotron {
-  background-color: #FFF;
-  min-height: 100vh;
+  /* background-color: rgb(233, 233, 233); */
+  min-height: 77vh;
   display: flex;
-  margin-top: 4%;
+  
+  margin-top: 2%;
+  padding-top: 2%;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -100,6 +102,7 @@ h1 {
   border-radius: 0.2em;
   margin-left: 13%;
   margin-right: 3%;
+  height: auto;
   
 }
 
@@ -112,4 +115,49 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
 }
+
+.aboutSection {
+  text-align: left;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+}
+
+.aboutTitle {
+ color:rgb(179, 6, 6);
+  
+}
+
+.aboutText {
+  font-family: Sanchez;
+  border-left:rgb(179, 6, 6) solid 10px;
+  padding-left: 1%;
+}
+
+.highlightText {
+  font-family: "LeagueSpartan";
+  /* //color:rgb(179, 6, 6); */
+}
+
+
+.resumeSection {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+}
+
+/* .resumeTitle {
+ 
+  
+} */
+
+.resumeText {
+  font-family: Sanchez;
+  border-left:solid 10px;
+  padding-left: 1%;
+}
+
